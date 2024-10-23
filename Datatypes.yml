@@ -1,0 +1,72 @@
+# yaml is casesentitive
+# Have keyvalue and in keyvalue have data (string, int , obj, array, etc.)
+# name: Kitikorn
+# age: 22
+# class: null
+city: Bangkok
+# ------------------------Data types----------------------------------
+# Boolean in YAML
+deploy: true
+test: false
+
+active: true
+admin: false
+# ----------------------------------------------------------
+# Numbers in YAML
+age: 22 #integer
+percent of marks: 22.0 #floating
+Grade: -1 #can be positive or negative
+# ----------------------------------------------------------
+# Null in YAML
+company: Null #empty value
+money: null
+# ----------------------------------------------------------
+# String in YAML
+name: 'Kitikorn Khanthasen'
+car: "BMW" #can be use "" or ''
+#Multiline String
+Motto: |
+ love is everything 
+ I'm looking for some people
+ to love me like U
+multiline_string_folded: >
+  This is just a folded multiline 
+  Stringvalue 
+  anything 
+  what we want to write 
+# ----------------------------------------------------------
+# Escaped character in YAML
+escaped: "Hello world \"How are you\" Fluk? "
+# Special character 
+special: "Hello \n Kitikorn" #new-line character
+# Without quotes 
+Hi: Kitikorn
+# ----------------------------------------------------------
+# List in YAML
+
+#Simple List
+fruits: 
+  - apple
+  - banana
+  - mango
+  - kiwi
+students:
+  - P'A
+  - P'B
+  - alex 
+  - mark
+
+#List of numbers 
+numbers: [1, 2, 3, 4, 5]
+
+#Mixed data type 
+class: 
+  - Kitikorn
+  - 22 
+  - 23.42
+
+#Nested list
+Matrix:
+  - [1, 2, 3]
+  - [4, 5, 6]
+  - [7, 8, 9]
