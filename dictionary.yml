@@ -1,0 +1,31 @@
+person:
+  name: Kitikorn
+  age: 22
+  company: Thai-nichi institute
+  city: Bangkok
+
+#Nested Dictionary
+Student:
+  name: mark
+  age: 12
+  std: 12th
+  subject: 
+    - Math
+    - Physical
+    - Chemistry
+    - History
+
+# Dictionary mixed data
+conficguration:
+  server: dev
+  port: 8080
+  stage: deploy
+
+# Nested Dictionary
+company:
+  name: XYZ
+  employees: 
+    - name: Yuka
+      role: Manager
+    - name: Luna
+      role: Dev
