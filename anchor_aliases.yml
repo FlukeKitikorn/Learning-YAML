@@ -1,0 +1,6 @@
+- &person
+  name: Kitikorn
+  location: Bangkok
+  age: 12
+
+- *person   

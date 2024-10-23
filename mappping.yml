@@ -1,0 +1,9 @@
+persons:
+  name: Fluk
+  age: 22 
+  city: Bangkok
+  hobbies: #nested mapping 
+    - cricket
+    - chess
+    - carrom
+    - badminton
